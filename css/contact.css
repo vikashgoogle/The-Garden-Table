@@ -4,105 +4,7 @@ padding: 0px;
 font-family: sans-serif;
 box-sizing: border-box;  
 }
-
-/*.main-container{
-  width:100%;
-  max-width: 1200px;
-  margin: 35px auto;
-  padding: 18px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  background-color: #f5f5e9;
-  border-radius: 12px;
-}
-
-.contact-info h2{
-    font-family: serif;
-    font-size: 40px;
-    color: #29472d;
-    margin-bottom: 15px;
-
-}
-.contact-info p{
-    color: #666;
-    margin-bottom: 35px;
-}
-.info-item h3 {
-    color: #29472d;
-    margin-bottom:5px;
-}
-.info-item p{
-    color: #666;
-    margin: 0;
-}
-/* form */
-/*.contact-from{
-    max-width: 600px;
-    padding: 35px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
-
-}
-.contact-from h2{
-    font-family: Gergia, serif;
-    font-size: 32;
-    color: #29472d;
-    margin-bottom: 10px;
-}
-.contact-from > p{
-    color: #666;
-    margin-bottom: 25px;
-}
-.form-group label{
-    display: block;
-    margin-bottom: 4px;
-    font-weight: 600;
-    color: #29472d;
-
-}
-.form-group input,
-.form-group textarea{
-    width: 100%;
-    padding:13px 15px;
-    border: 1px solid #d7ddd2;
-    border-radius: 8px;
-    outline: none;
-    font-size: 15px;
-    font-family: sans-serif;
-    background-color: #fafcf8;
-    transition: 0.3s;
-
-}
-.form-group input:focus,
-.form-group textarea:focus{
-    border-color: #79945f;
-    box-shadow: 0 0 0 3px rgba(121, 148, 95, 0.12);
-}
-.form-group textarea{
-    resize: vertical;
-}
- button{
-    width: 100%;
-    padding:14px;
-    border:none;
-    border-radius: 8px;
-    background-color: #29472d;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-button:hover{
-    background-color: #496b4d;
-    transform: translateY(-2px);
-}*/
-/* =========================
-   CONTACT SECTION
-========================= */
-
+/*CONTACT SECTION*/
 .main-container {
     width: 90%;
     max-width: 1100px;
@@ -112,72 +14,55 @@ button:hover{
     gap: 40px;
     align-items: stretch;
 }
-
-/* =========================
-   CONTACT INFORMATION
-========================= */
-
+/*CONTACT INFORMATION*/
 .contact-info {
     background: #f5f5e9;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
-
 .contact-info h2,
 .contact-form h2 {
     margin-bottom: 15px;
     font-size: 30px;
     color: #333;
 }
-
 .contact-info > p,
 .contact-form > p {
     color: #666;
     line-height: 1.7;
     margin-bottom: 30px;
 }
-
 /* Information Items */
-
 .info-item {
     margin-bottom: 25px;
 }
-
 .info-item h3 {
     font-size: 18px;
     color: #2e7d32;
     margin-bottom: 8px;
 }
-
 .info-item p {
     color: #555;
     line-height: 1.6;
     margin: 0;
 }
-
-/* =========================
-   CONTACT FORM
-========================= */
-
+/*CONTACT FORM*/
 .contact-form {
     background: #ffffff;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
-
 .form-group {
     margin-bottom: 20px;
 }
-
 .form-group label {
     display: block;
     margin-bottom: 8px;
     font-weight: 600;
     color: #333;
 }
-
 .form-group input,
 .form-group textarea {
     width: 100%;
@@ -190,25 +75,18 @@ button:hover{
     transition: 0.3s ease;
     box-sizing: border-box;
 }
-
 /* Input Focus */
-
 .form-group input:focus,
 .form-group textarea:focus {
     border-color: #2e7d32;
     box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.12);
 }
-
 /* Textarea */
-
 .form-group textarea {
     min-height: 140px;
     resize: vertical;
 }
-
-/* =========================
-   BUTTON
-========================= */
+/*BUTTON */
 
 .contact-form button {
     width: 100%;
@@ -222,128 +100,15 @@ button:hover{
     cursor: pointer;
     transition: 0.3s ease;
 }
-
 .contact-form button:hover {
     background: #1b5e20;
     transform: translateY(-2px);
 }
-
 .contact-form button:active {
     transform: translateY(0);
 }
 
 
-/* =========================
-   TABLET RESPONSIVE
-========================= */
-
-@media (max-width: 900px) {
-
-    .main-container {
-        width: 92%;
-        grid-template-columns: 1fr;
-        gap: 30px;
-        margin: 40px auto;
-    }
-
-    .contact-info,
-    .contact-form {
-        padding: 30px;
-    }
-
-    .contact-info h2,
-    .contact-form h2 {
-        font-size: 26px;
-    }
-}
-
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
-
-@media (max-width: 600px) {
-
-    .main-container {
-        width: 92%;
-        margin: 30px auto;
-        gap: 20px;
-    }
-
-    .contact-info,
-    .contact-form {
-        padding: 22px;
-        border-radius: 12px;
-    }
-
-    .contact-info h2,
-    .contact-form h2 {
-        font-size: 23px;
-    }
-
-    .contact-info > p,
-    .contact-form > p {
-        font-size: 14px;
-        margin-bottom: 22px;
-    }
-
-    .info-item {
-        margin-bottom: 20px;
-    }
-
-    .info-item h3 {
-        font-size: 17px;
-    }
-
-    .info-item p {
-        font-size: 14px;
-    }
-
-    .form-group {
-        margin-bottom: 16px;
-    }
-
-    .form-group label {
-        font-size: 14px;
-    }
-
-    .form-group input,
-    .form-group textarea {
-        font-size: 14px;
-        padding: 12px;
-    }
-
-    .form-group textarea {
-        min-height: 120px;
-    }
-
-    .contact-form button {
-        padding: 13px;
-        font-size: 15px;
-    }
-}
-
-
-/* =========================
-   SMALL MOBILE
-========================= */
-
-@media (max-width: 400px) {
-
-    .main-container {
-        width: 94%;
-    }
-
-    .contact-info,
-    .contact-form {
-        padding: 18px;
-    }
-
-    .contact-info h2,
-    .contact-form h2 {
-        font-size: 21px;
-    }
-}
 /* map */
 .map-section {
   width: 90%;
